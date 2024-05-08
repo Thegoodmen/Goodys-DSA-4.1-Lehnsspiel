@@ -1,0 +1,54 @@
+{
+    "id": "fief",
+    "title": "Goody's DSA 4.1 Fief System",
+    "description": "",
+    "version": "0.0.1",
+    "library": "false",
+    "compatibility": {
+        "minimum": 10,
+        "verified": "11.315",
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "Goody",
+            "discord": "Goody#2054",
+            "email": "maron.moeller@gmail.com"
+        }
+    ],
+    "relationships": {
+        "systems": [{
+            "id": "gdsa",
+            "type": "system",
+            "manifest": "https://github.com/Thegoodmen/Goodys-DSA-4.1-System/releases/download/v0.7.2/system.json",
+            "compatibility": {
+                "minimum": "0.7.0",
+                "verified": "0.7.2",
+                "maximum": "1.0.0"
+            }
+        }],
+      "requires": []
+    },
+    "esmodules": [
+        "fief.js"
+    ],
+    "styles": [
+        "fief.css"
+    ],
+    "scripts": [],
+    "languages": [
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        },
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "url": "",
+    "manifest": "",
+    "download": ""
+  }
