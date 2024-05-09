@@ -1,5 +1,5 @@
 {
-    "id": "fief",
+    "id": "dsa-fief-system",
     "title": "Goody's DSA 4.1 Fief System",
     "description": "",
     "version": "0.0.1",
@@ -51,4 +51,4 @@
     "url": "",
     "manifest": "",
     "download": ""
-  }
+}
