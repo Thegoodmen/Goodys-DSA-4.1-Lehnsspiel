@@ -1,0 +1,25 @@
+{
+    "Actor": {
+        "types": [
+            "Building"
+        ],
+        "Building": {
+            "type": "Haus",
+            "price": {
+                "gold": 0,
+                "silver": 0,
+                "copper": 0,
+                "nickel": 0
+            },
+            "log": []
+        }
+    },
+    "Item": {
+        "types":[],
+        "templates": {
+            "generalItems": {
+                "weight": 10
+            }
+        }
+    }
+}

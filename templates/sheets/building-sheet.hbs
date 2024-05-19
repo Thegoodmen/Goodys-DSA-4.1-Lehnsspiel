@@ -1,0 +1,53 @@
+<form class="{{cssClass}} formBuild" autocomplete="off">
+    <div class="picHouse">
+        <img class="actorImg" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
+    </div>
+    <div class="nameBox">
+        <input class="nameHouse" name="name" type="text" value="{{actor.name}}" />
+    </div>
+    <div class="statBox">
+        <div class="statlbl">
+            Wirtschaft
+        </div>
+        <div class="statlbl">
+            Stabilität
+        </div>
+        <div class="statlbl">
+            Stimmung des Volkes
+        </div>
+        <div class="statvalue">
+            <input class="stat" name="system.economy" type="number" value="{{system.economy}}" />
+        </div>
+        <div class="statvalue">
+            <input class="stat" name="system.stability" type="number" value="{{system.stability}}" />
+        </div>
+        <div class="statvalue">
+            <input class="stat" name="system.mood" type="number" value="{{system.mood}}" />
+        </div>
+    </div>
+    <div class="moneyBox">
+        <div class="statlbl">
+            Kosten
+        </div>
+        <div class="statlbl">
+            Instandhaltung
+        </div>
+        <div class="statvalue">
+            <input class="stat" name="system.cost" type="number" value="{{system.cost}}" />
+        </div>
+        <div class="statvalue">
+            <input class="stat" name="system.maintanace" type="number" value="{{system.maintanace}}" />
+        </div>
+    </div>
+    <div class="buttonBox">
+        <div class="buttonInnerBox">
+            <button class="button">Händler</button>
+            <button class="button">Beschädigen</button>
+            <button class="button">Reparieren</button>
+            <button class="button">Einstellungen</button>
+        </div>
+    </div>
+    <div class="descriptionBox">
+        <textarea class="desctiption" name="system.desctiption">{{system.desctiption}}</textarea>
+    </div>
+</form>
